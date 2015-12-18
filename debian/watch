@@ -1,0 +1,7 @@
+# Compulsory line, this is a version 3 file
+version=3
+
+# Look at the latest stable release only
+opts=filenamemangle=s/.+\/(\d\S*)\.tar\.gz/shairport-sync-$1\.tar\.gz/ \
+  https://github.com/mikebrady/shairport-sync/releases/latest .*/(\d\S*)\.tar\.gz
+

@@ -1,0 +1,4 @@
+
+# Only the packaging is GPL; the shairport-sync source is MIT licensed
+shairport-sync: possible-gpl-code-linked-with-openssl
+

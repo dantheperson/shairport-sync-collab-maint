@@ -1,0 +1,5 @@
+shairport-sync (2.6-1) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #743638)
+
+ -- Chris Boot <debian@bootc.net>  Sun, 13 Dec 2015 09:37:59 +0000
