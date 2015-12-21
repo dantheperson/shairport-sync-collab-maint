@@ -1,0 +1,35 @@
+#!/bin/sh
+# postinst script for shairport-sync
+#
+# see: dh_installdeb(1)
+
+set -e
+
+case "$1" in
+    configure)
+	# create shairport-sync group if there isn't one already
+	if ! getent group shairport-sync >/dev/null; then
+		addgroup --system shairport-sync >/dev/null
+	fi
+
+	# create shairport-sync user if there isn't one already
+	if ! getent passwd shairport-sync >/dev/null; then
+		adduser --system --ingroup shairport-sync --shell /usr/sbin/nologin \
+			--home /var/lib/shairport-sync shairport-sync >/dev/null
+		# Add shairport-sync to the audio group
+		adduser shairport-sync audio
+	fi
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
