@@ -1,5 +1,10 @@
-shairport-sync (2.6-1) UNRELEASED; urgency=low
+shairport-sync (2.6-1ubuntu1~precise1) precise; urgency=low
 
+  [ Chris Boot ]
   * Initial release. (Closes: #743638)
 
- -- Chris Boot <debian@bootc.net>  Sun, 13 Dec 2015 09:37:59 +0000
+  [ dan carter ]
+  * Build for precise.
+    systemv, no soxr, and patch for older libconfig
+
+ -- dan carter <dantheperson@gmail.com>  Mon, 21 Dec 2015 22:44:18 +1300

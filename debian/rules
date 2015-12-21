@@ -16,7 +16,7 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 
 # main packaging script based on dh7 syntax
 %:
-	dh $@ --with autoreconf,systemd
+	dh $@ --with autoreconf
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
@@ -24,12 +24,13 @@ override_dh_auto_configure:
 		--with-stdout \
 		--with-pipe \
 		--with-ssl=openssl \
-		--with-soxr \
 		--with-metadata \
 		--with-avahi \
 		--with-alsa \
-		--with-pulseaudio \
-		--without-configfiles
+		--with-systemv
 
 override_dh_installchangelogs:
 	dh_installchangelogs --keep RELEASENOTES.md
+
+override_dh_installinit:
+	dh_installinit --onlyscripts

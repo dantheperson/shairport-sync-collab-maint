@@ -2,7 +2,7 @@ Source: shairport-sync
 Section: sound
 Priority: extra
 Maintainer: Chris Boot <debian@bootc.net>
-Build-Depends: debhelper (>= 9), dh-autoreconf, dh-systemd, libasound2-dev, libavahi-client-dev, libconfig-dev, libdaemon-dev, libpopt-dev, libpulse-dev, libsoxr-dev, libssl-dev
+Build-Depends: debhelper (>= 9), dh-autoreconf, libasound2-dev, libavahi-client-dev, libconfig-dev, libdaemon-dev, libpopt-dev, libpulse-dev, libssl-dev
 Standards-Version: 3.9.6
 Homepage: https://github.com/mikebrady/shairport-sync
 Vcs-Git: git://anonscm.debian.org/collab-maint/shairport-sync.git
