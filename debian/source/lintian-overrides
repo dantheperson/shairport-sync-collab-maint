@@ -1,0 +1,4 @@
+
+# Author does not provide signatures on tarballs
+shairport-sync: debian-watch-may-check-gpg-signature
+
