@@ -24,6 +24,7 @@ override_dh_auto_configure:
 		--with-stdout \
 		--with-pipe \
 		--with-ssl=openssl \
+		--with-soxr \
 		--with-metadata \
 		--with-avahi \
 		--with-alsa \
