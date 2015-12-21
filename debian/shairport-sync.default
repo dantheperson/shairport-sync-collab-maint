@@ -7,5 +7,5 @@
 DAEMON_ARGS=""
 
 # NOTICE: Please do *not* include the "-d" or "--daemon" options in DAEMON_ARGS
-# above. This option should not be specified when using systemd and will be
-# added automatically when using sysvinit.
+# above. This option will be added automatically as necessary. Please also note
+# that most options are configurable using /etc/shairport-sync.conf.

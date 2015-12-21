@@ -18,4 +18,18 @@ fi
 
 DESC="AirPlay Synchronous Audio Service"
 DAEMON=/usr/bin/shairport-sync
-START_ARGS="--chuid shairport-sync"
+PIDFILE=/run/shairport-sync/shairport-sync.pid
+USER=shairport-sync
+START_ARGS="--chuid ${USER}"
+
+do_start_prepare() {
+	# Make sure the PID directory exists and shairport-sync can write to it
+	piddir=$(dirname $PIDFILE)
+	if [ ! -d $piddir ]; then
+		mkdir $piddir
+		chown ${USER}: $piddir
+	fi
+
+	# Add --daemon to the command-line arguments
+	DAEMON_ARGS="--daemon ${DAEMON_ARGS}"
+}
