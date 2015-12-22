@@ -1,5 +1,10 @@
-shairport-sync (2.6-1) UNRELEASED; urgency=low
+shairport-sync (2.7.4-0ubuntu1) wily; urgency=low
 
+  [ Chris Boot ]
   * Initial release. (Closes: #743638)
 
- -- Chris Boot <debian@bootc.net>  Sun, 13 Dec 2015 09:37:59 +0000
+  [ dan carter ]
+  * Upstream release 2.7.4
+  * Use upstream service files 
+
+ -- dan carter <dantheperson@gmail.com>  Tue, 22 Dec 2015 21:35:46 +1300
