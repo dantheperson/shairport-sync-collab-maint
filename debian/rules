@@ -29,8 +29,8 @@ override_dh_auto_configure:
 		--with-avahi \
 		--with-alsa \
 		--with-pulseaudio \
-		--with-piddir=/run/shairport-sync \
-		--without-configfiles
+		--with-systemd
 
 override_dh_installchangelogs:
 	dh_installchangelogs --keep RELEASENOTES.md
+
