@@ -1,3 +1,9 @@
+shairport-sync (2.7.4-0ubuntu1~trusty1) trusty; urgency=low
+
+  * New development release 2.7.4
+
+ -- dan carter <dantheperson@gmail.com>  Tue, 22 Dec 2015 22:26:59 +1300
+
 shairport-sync (2.6-1ubuntu1~trusty2) trusty; urgency=low
 
   * correct series
