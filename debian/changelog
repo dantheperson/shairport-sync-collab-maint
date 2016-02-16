@@ -1,3 +1,9 @@
+shairport-sync (2.8.0-0ubuntu1) wily; urgency=low
+
+  * Upstream release 2.8.0
+
+ -- dan carter <dantheperson@gmail.com>  Tue, 16 Feb 2016 23:06:56 +1300
+
 shairport-sync (2.7.6-0ubuntu1) wily; urgency=low
 
   * Upstream release 2.7.6 
