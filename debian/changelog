@@ -1,3 +1,9 @@
+shairport-sync (2.8.3-0ppa3) yakkety; urgency=low
+
+  * Rebuid for yakkety
+
+ -- dan carter <dantheperson@gmail.com>  Sun, 01 May 2016 23:23:06 +1200
+
 shairport-sync (2.8.3-0ppa2) xenial; urgency=low
 
   * Rebuild for xenial
