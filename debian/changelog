@@ -1,3 +1,9 @@
+shairport-sync (2.8.4-0ppa1) yakkety; urgency=low
+
+  * Upstream release 2.8.4 
+
+ -- dan carter <dantheperson@gmail.com>  Mon, 13 Jun 2016 22:55:03 +1200
+
 shairport-sync (2.8.3-0ppa3) yakkety; urgency=low
 
   * Rebuid for yakkety
