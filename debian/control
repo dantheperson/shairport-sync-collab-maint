@@ -3,7 +3,7 @@ Section: sound
 Priority: extra
 Maintainer: Chris Boot <debian@bootc.net>
 Build-Depends: debhelper (>= 9), dh-autoreconf, dh-systemd, libasound2-dev, libavahi-client-dev, libconfig-dev, libdaemon-dev, libpopt-dev, libpulse-dev, libsoxr-dev, libssl-dev
-Standards-Version: 3.9.6
+Standards-Version: 3.9.7
 Homepage: https://github.com/mikebrady/shairport-sync
 Vcs-Git: git://anonscm.debian.org/collab-maint/shairport-sync.git
 Vcs-Browser: http://anonscm.debian.org/cgit/collab-maint/shairport-sync.git/

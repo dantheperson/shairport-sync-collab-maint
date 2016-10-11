@@ -28,8 +28,8 @@ override_dh_auto_configure:
 		--with-metadata \
 		--with-avahi \
 		--with-alsa \
-		--with-pulseaudio \
-		--with-systemd
+		--with-systemd \
+		--sysconfdir=/etc
 
 override_dh_installchangelogs:
 	dh_installchangelogs --keep RELEASENOTES.md
