@@ -1,3 +1,15 @@
+shairport-sync (2.8.6-0ppa3) yakkety; urgency=low
+
+  * Use orig tgz from ubuntu/debian instead of from github direct
+
+ -- dan carter <dantheperson@gmail.com>  Sat, 10 Dec 2016 00:13:34 +1300
+
+shairport-sync (2.8.6-0ppa2) yakkety; urgency=low
+
+  * Correct distribution name
+
+ -- dan carter <dantheperson@gmail.com>  Sat, 10 Dec 2016 00:07:48 +1300
+
 shairport-sync (2.8.6-0ppa1) yakkery; urgency=low
 
   * Upstream release 2.8.6
