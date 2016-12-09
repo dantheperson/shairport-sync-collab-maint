@@ -1,3 +1,9 @@
+shairport-sync (2.8.6-0ppa1~trusty) trusty; urgency=low
+
+  * Upstream release 2.8.6
+
+ -- dan carter <dantheperson@gmail.com>  Sat, 10 Dec 2016 00:00:10 +1300
+
 shairport-sync (2.8.3-0ppa1~trusty) trusty; urgency=low
 
   * Upstream release 2.8.3
