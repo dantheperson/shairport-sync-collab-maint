@@ -1,3 +1,9 @@
+shairport-sync (3.0.2-0ppa1) yakkety; urgency=low
+
+  * Upstream release 3.0.2
+
+ -- dan carter <dantheperson@gmail.com>  Mon, 15 May 2017 21:59:39 +1200
+
 shairport-sync (2.8.6-0ppa3) yakkety; urgency=low
 
   * Use orig tgz from ubuntu/debian instead of from github direct
