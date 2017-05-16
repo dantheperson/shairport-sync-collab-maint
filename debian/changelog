@@ -1,3 +1,9 @@
+shairport-sync (3.0.2-0ppa3~trusty) trusty; urgency=low
+
+  * Rebuild to republish
+
+ -- dan carter <dantheperson@gmail.com>  Tue, 16 May 2017 23:10:06 +1200
+
 shairport-sync (3.0.2-0ppa1~trusty) trusty; urgency=low
 
   * Upstream release 3.0.2
